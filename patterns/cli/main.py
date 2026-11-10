@@ -19,6 +19,7 @@ from .commands.logout import logout
 from .commands.trigger import trigger
 from .commands.update import update_command
 from .commands.upload import upload
+from .commands.validate import validate
 from .services import versions
 from .services.output import sprint
 from .services.versions import (
@@ -87,6 +88,7 @@ for command in (
     trigger,
     upload,
     download,
+    validate,
 ):
     if isinstance(command, typer.Typer):
         command._add_completion = False
@@ -144,3 +146,7 @@ def main():
     typer.main.get_group = _get_group
     app()
     typer.main.get_group = _old_typer_get_group
+
+
+if __name__ == "__main__":
+    main()
