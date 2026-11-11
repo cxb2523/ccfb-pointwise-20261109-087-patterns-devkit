@@ -1,0 +1,17 @@
+{
+  "uid": "55",
+  "session_id": "3194794b-19b9-4975-bf36-0aa21e236901",
+  "model": "auto_model/urm",
+  "context_window": 1000000,
+  "stream_file": "run_logs/claude_run_87.stream.jsonl",
+  "stream_sha256": "cc96af8f17e52ec040db123791922f1f6ef22ed3f8d6ff3e659704d79368d5b2",
+  "raw_context_excerpt": "annotation_state/rework_context_raw_87.jsonl",
+  "same_session_cwd": "D:\\gsb-auto\\batches\\pointwise-20261109\\087-patterns-devkit\\A",
+  "same_session_cli_version": "2.1.239",
+  "current_host_platform": "Windows-11-10.0.26300-SP0",
+  "evidence_basis": [
+    "Final stream modelUsage records contextWindow=1000000.",
+    "Raw session metadata records the same session cwd and CLI version.",
+    "The Windows drive-path cwd and current recorder host both identify Windows."
+  ]
+}
